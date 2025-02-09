@@ -1,6 +1,7 @@
 **Machine Learning project on Pre-Owned Car Price Prediction using Python**:
 
 **1. Introduction**
+
 Objective: Develop a machine learning model to predict the price of pre-owned cars based on various features.
 
 Use Case: Helps buyers and sellers estimate a fair market value.
@@ -8,6 +9,7 @@ Use Case: Helps buyers and sellers estimate a fair market value.
 Tools & Technologies: Python, Pandas, NumPy, Scikit-Learn, Matplotlib and Seaborn.
 
 **2. Data Collection & Preprocessing**
+
 Data Source: Kaggle datasets
 https://www.kaggle.com/datasets/rakkesharv/used-cars-detailed-dataset
 
@@ -54,22 +56,30 @@ Mileage (kmpl)	:	Average mileage of the car
 Emission 		:	Emission norms of the car.
 
 **Data Cleaning:**
+
 Handling Missing Values
 Removing Duplicates
 Standardizing Formats (e.g., converting categorical data to numerical)
 
 **3. Exploratory Data Analysis (EDA)**
+
 **Visualization:** Use Seaborn & Matplotlib for insights.
+
 **Correlation Analysis:** Identify important features.
+
 **Outlier Detection:** Handle extreme values using boxplots, IQR, or Z-score.
 https://colab.research.google.com/drive/1ZNa-izLunAKGvGFNqvduruYFgwI4lduz
 
 **4. Feature Engineering**
+
 **Encoding Categorical Variables:** One-Hot Encoding / Label Encoding.
+
 **Feature Scaling:** Normalize numerical features using MinMaxScaler or StandardScaler.
+
 **Feature Selection:** Use techniques like Mutual Information, PCA, or Recursive Feature Elimination (RFE).
 
 **5. Model Selection & Training**
+
 Algorithms to Consider:
 
 **Linear and LASSO Regression :**
@@ -89,6 +99,7 @@ https://colab.research.google.com/drive/1tz7Ipr9QVlgmesPcBuksQQmVeUHN6ccV
 **Hyperparameter Tuning:** GridSearchCV, RandomizedSearchCV
 
 **6. Model Evaluation**
+
 **Metrics Used:**
 
 R² Score (Coefficient of Determination)
@@ -102,4 +113,5 @@ Root Mean Squared Error (RMSE)
 Accuracy
 
 **7. Summary of Results:**
+
 By considering all five metrics, it can be concluded that **random forest** is the best model for the prediction for used car prices. Random Forest as a regression model gave the least MAE and RMSE values. According to random forest, the most important features are Power (BHP), Make Year, Fuel Tank Capacity, Torque (Nm), Mileage Run, Mileage (kmpl) and CC Displacement.
